@@ -14,19 +14,11 @@
 			remoteGlobalIDString = C35EFE2D2EE868D600F4764C;
 			remoteInfo = SwiftTesting;
 		};
-		C35EFE462EE868D800F4764C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C35EFE262EE868D600F4764C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C35EFE2D2EE868D600F4764C;
-			remoteInfo = SwiftTesting;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C35EFE2E2EE868D600F4764C /* SwiftTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35EFE3B2EE868D800F4764C /* SwiftTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C35EFE452EE868D800F4764C /* SwiftTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		C35EFE3E2EE868D800F4764C /* SwiftTestingTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftTestingTests;
-			sourceTree = "<group>";
-		};
-		C35EFE482EE868D800F4764C /* SwiftTestingUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftTestingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C35EFE422EE868D800F4764C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				C35EFE302EE868D600F4764C /* SwiftTesting */,
 				C35EFE3E2EE868D800F4764C /* SwiftTestingTests */,
-				C35EFE482EE868D800F4764C /* SwiftTestingUITests */,
 				C35EFE2F2EE868D600F4764C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				C35EFE2E2EE868D600F4764C /* SwiftTesting.app */,
 				C35EFE3B2EE868D800F4764C /* SwiftTestingTests.xctest */,
-				C35EFE452EE868D800F4764C /* SwiftTestingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = C35EFE3B2EE868D800F4764C /* SwiftTestingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C35EFE442EE868D800F4764C /* SwiftTestingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C35EFE552EE868D800F4764C /* Build configuration list for PBXNativeTarget "SwiftTestingUITests" */;
-			buildPhases = (
-				C35EFE412EE868D800F4764C /* Sources */,
-				C35EFE422EE868D800F4764C /* Frameworks */,
-				C35EFE432EE868D800F4764C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C35EFE472EE868D800F4764C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C35EFE482EE868D800F4764C /* SwiftTestingUITests */,
-			);
-			name = SwiftTestingUITests;
-			packageProductDependencies = (
-			);
-			productName = SwiftTestingUITests;
-			productReference = C35EFE452EE868D800F4764C /* SwiftTestingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 26.0.1;
 					};
 					C35EFE3A2EE868D800F4764C = {
-						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = C35EFE2D2EE868D600F4764C;
-					};
-					C35EFE442EE868D800F4764C = {
 						CreatedOnToolsVersion = 26.0.1;
 						TestTargetID = C35EFE2D2EE868D600F4764C;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				C35EFE2D2EE868D600F4764C /* SwiftTesting */,
 				C35EFE3A2EE868D800F4764C /* SwiftTestingTests */,
-				C35EFE442EE868D800F4764C /* SwiftTestingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C35EFE392EE868D800F4764C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C35EFE432EE868D800F4764C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C35EFE412EE868D800F4764C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = C35EFE2D2EE868D600F4764C /* SwiftTesting */;
 			targetProxy = C35EFE3C2EE868D800F4764C /* PBXContainerItemProxy */;
-		};
-		C35EFE472EE868D800F4764C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C35EFE2D2EE868D600F4764C /* SwiftTesting */;
-			targetProxy = C35EFE462EE868D800F4764C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,46 +429,6 @@
 			};
 			name = Release;
 		};
-		C35EFE562EE868D800F4764C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M9R3KVSWLF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eytsam.SwiftTestingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTesting;
-			};
-			name = Debug;
-		};
-		C35EFE572EE868D800F4764C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M9R3KVSWLF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eytsam.SwiftTestingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTesting;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,15 +455,6 @@
 			buildConfigurations = (
 				C35EFE532EE868D800F4764C /* Debug */,
 				C35EFE542EE868D800F4764C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C35EFE552EE868D800F4764C /* Build configuration list for PBXNativeTarget "SwiftTestingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C35EFE562EE868D800F4764C /* Debug */,
-				C35EFE572EE868D800F4764C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
